@@ -1,0 +1,20 @@
+DATA QUALITY REPORT
+
+1. fund_master
+- Rows: 40
+- Missing values: 0
+- Duplicate rows: 0
+
+2. nav_history
+- Rows: 46,000
+- Missing values: 0
+- Duplicate rows: 0
+
+3. AMFI Validation
+- Total Schemes: 40
+- Matched Schemes: 40
+- Missing Schemes: 0
+
+4. Recommendations
+- No duplicate NAV records found in the current nav_history
+- No missing risk grades found in the current fund_master dataset
