@@ -6,8 +6,9 @@ import pandas as pd
 from sqlalchemy import create_engine
 
 ROOT = Path(__file__).resolve().parent
-RAW_DIR = ROOT / "Day 1" / "data" / "raw"
-PROCESSED_DIR = ROOT / "Day 1" / "data" / "processed"
+WORKSPACE_ROOT = ROOT.parent
+RAW_DIR = WORKSPACE_ROOT / "Day 1" / "data" / "raw"
+PROCESSED_DIR = WORKSPACE_ROOT / "Day 1" / "data" / "processed"
 PROCESSED_DIR.mkdir(parents=True, exist_ok=True)
 DB_PATH = ROOT / "bluestock_mf.db"
 SCHEMA_PATH = ROOT / "schema.sql"
